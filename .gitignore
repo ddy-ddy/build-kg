@@ -133,7 +133,9 @@ dmypy.json
 __pycache__
 .DS_Store
 .idea
-/data/
-/util_model/
-/output/
-/import2neo4j/
+
+
+/import2neo4j/neo4j-import/
+/output/build_kg_data/
+/output/crawl_data/
+/util_model/structured-prediction-srl-bert.2020.12.15/

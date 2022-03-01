@@ -53,7 +53,7 @@
         - 使用Allennlp的semantic role labeling模型对功能性描述进行标注，输入句子，输出语义标注结果[allenlp工具🔗](https://demo.allennlp.org/semantic-role-labeling)
         - 将V+ARG1+ARG2...ARG4组成新的句子【称作api描述的主要功能】，ARGM-...则构成event_constraint实体[语义角色标准使用propbank标准🔗](http://clear.colorado.edu/compsem/documents/propbank_guidelines.pdf)
 
-        <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1gzug50v2oij215g04eq3q.jpg" style="zoom:50%;" />
+        <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1gzug50v2oij215g04eq3q.jpg" style="zoom:40%;" />
 
         
 
@@ -67,7 +67,7 @@
 
         - 将提取到的语法角色与定义的实体进行对应
 
-        <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1gzughj2hvsj20q60eo3zy.jpg" style="zoom:50%;" />
+        <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1gzughj2hvsj20q60eo3zy.jpg" style="zoom:40%;" />
 
         
 
@@ -75,9 +75,8 @@
 
         - 实体在上述信息抽取过程已经对应完毕，接着根据Step2提到的三元组构建关系，最终得到node.csv和relation.csv
 
-![](https://tva1.sinaimg.cn/large/e6c9d24egy1gzugpotbrzj20da071gm5.jpg)
-
-![](https://tva1.sinaimg.cn/large/e6c9d24egy1gzugpnepf9j20df074gm2.jpg)
+<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1gzugpotbrzj20da071gm5.jpg" style="zoom:50%;" />
+<img src="https://tva1.sinaimg.cn/large/e6c9d24egy1gzugpnepf9j20df074gm2.jpg" style="zoom:50%;" />
 
 ------
 
