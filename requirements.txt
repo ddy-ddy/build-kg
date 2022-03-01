@@ -1,0 +1,8 @@
+nltk==3.5
+simplenlg==0.2.0
+lemminflect==0.2.2
+spacy_nightly==3.0.0rc5
+pandas==0.24.2
+allennlp==2.1.0
+tqdm==4.62.3
+spacy==3.2.2

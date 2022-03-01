@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2022/3/1 1:01 下午
+# @Time    : 2022/2/4 5:50 下午
 # @Author  : ddy
-# @FileName: run.py
+# @FileName: __init__.py.py
 # @github  : https://github.com/ddy-ddy
-
-print('1')

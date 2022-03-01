@@ -133,3 +133,7 @@ dmypy.json
 __pycache__
 .DS_Store
 .idea
+/data/
+/util_model/
+/output/
+/import2neo4j/
