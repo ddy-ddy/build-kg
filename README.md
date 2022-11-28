@@ -55,17 +55,19 @@
 
 ##### Step1：对功能性描述进行语义角色标注
 
-- 使用Allennlp的semantic role labeling模型对功能性描述进行标注，输入句子，输出语义标注结果 | [allenlp工具](https://demo.allennlp.org/semantic-role-labeling)
+- 使用Allennlp的semantic role labeling模型对功能性描述进行标注，输入句子，输出语义标注结果
 
-- 将V+ARG1+ARG2...ARG4组成新的句子【称作api描述的主要功能】，ARGM-...则构成event_constraint实体 | [语义角色标准使用propbank标准](http://clear.colorado.edu/compsem/documents/propbank_guidelines.pdf)
+- 将V+ARG1+ARG2...ARG4组成新的句子（称作api描述的主要功能），ARGM-...则构成event_constraint实体 
+-  [allenlp工具](https://demo.allennlp.org/semantic-role-labeling) | [语义角色标准使用propbank标准](http://clear.colorado.edu/compsem/documents/propbank_guidelines.pdf)
 
 <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1gzug50v2oij215g04eq3q.jpg" style="zoom:40%;" />
 
 ##### Step2：对api描述的主要功能进行语法角色标注
 
-- 基于Spacy对主要功能进行语法角色标注，得到至多6种语法角色 | 参考论文1 | [Spacy工具🔗](https://spacy.io/)
+- 基于Spacy对主要功能进行语法角色标注，得到至多6种语法角色
 
 - 将提取到的语法角色与定义的实体进行对应
+- 参考论文1 |  [SpCy工具](https://spacy.io/)
 
 <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1gzugd6383zj21yy0k4jtd.jpg" style="zoom:30%;" />
 
@@ -74,7 +76,8 @@
 
 ##### Step3：根据抽取到的信息构建实体和关系，最终构建KG
 
-- 实体在上述信息抽取过程已经对应完毕，接着根据Step2提到的三元组构建关系，最终得到node.csv和relation.csv
+- 实体在上述信息抽取过程已经对应完毕
+- 接着根据Step2提到的三元组构建关系，最终得到node.csv和relation.csv
 
 | <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1gzugpotbrzj20da071gm5.jpg" style="zoom:70%;" /> | <img src="https://tva1.sinaimg.cn/large/e6c9d24egy1gzugpnepf9j20df074gm2.jpg" style="zoom:70%;" /> |
 | :----------------------------------------------------------: | :----------------------------------------------------------: |
